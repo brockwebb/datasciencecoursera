@@ -1,0 +1,7 @@
+# codebook for the data files
+
+* The "features.txt" has labels for the various telemetry (motion) measurements taken
+* The "activity_labels.txt" contains the various positions a test subject would be in while collecting the data
+* The test/training data folders contain ID columns (e.g. y_train, Subject_train) that corraspond to the subject or
+activity that would be found "activity_labels"
+* The X_Train or X_Test contains the data described by the "features.txt" file.
