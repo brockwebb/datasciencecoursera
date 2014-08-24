@@ -8,11 +8,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 >To run the script, first unzip the data in your working directory
 
 ### The assignment is, (source: Getting and Cleaning Data (get-006) website)
-1. "Merges the training and the test sets to create one data set. 1
-2.  Extracts only the measurements on the mean and standard deviation for each measurement. 2 
-3.  Uses descriptive activity names to name the activities in the data set 3
-4.  Appropriately labels the data set with descriptive variable names.  4
-5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject. " 5 
+1. "Merges the training and the test sets to create one data set. 
+2.  Extracts only the measurements on the mean and standard deviation for each measurement. 
+3.  Uses descriptive activity names to name the activities in the data set 
+4.  Appropriately labels the data set with descriptive variable names.  
+5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject. "  
 
 ## What the script does:
 
