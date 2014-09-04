@@ -13,7 +13,7 @@ psub <- subset(p, subset=(Date >= "2007-02-01" & Date <= "2007-02-02"))
 day_minute <- paste(as.Date(psub$Date), psub$Time)
 psub$day_minute <- as.POSIXct(day_minute)
 
-## Plot... type = line. x=time, y=power
+## Plot... type = line. x=time (minutes), y=power
 plot(psub$day_minute, psub$Global_active_power, type="l", 
      xlab="", ylab="Global Active Power (kilowatts)")
 
